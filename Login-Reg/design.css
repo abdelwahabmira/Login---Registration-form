@@ -1,0 +1,114 @@
+p{
+    color :  rgb(2, 2, 2);
+    font-size: 20px;
+  }
+  .welpdiv{
+    color :  rgb(0, 0, 0);
+    font-size: 50px;
+    left : 33%;
+    top : 40% ;
+    position: absolute;
+  
+  }
+  .pdiv{
+    color:  rgb(0, 0, 0) ;
+    font-size: 50px;
+    position: absolute;
+    left : 43%;
+  }
+  .ppdiv{
+    color:  rgb(0, 0, 0);
+    font-size: 50px;
+    position: absolute;
+    left : 39%;
+  
+  }
+  .regdiv
+  {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 400px;
+      height: 500px;
+      padding: 80px 40px;
+      box-sizing: border-box;
+     background: transparent;
+    /*  opacity: 0.2;*/
+  }
+  .regdiv input
+  {
+      width: 100%;
+      margin-bottom: 20px;
+      height: 40px;
+  
+  }
+  .logindiv{
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 400px;
+   height: 400px;
+   padding: 80px 40px;
+   box-sizing: border-box;
+   background: transparent;
+  }
+  .logindiv input
+  {
+      width: 100%;
+      margin-bottom: 20px;
+      height: 40px;
+  
+  }
+  .logindiv input[type="submit"]{
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    background:  rgb(57, 89, 90);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 10%;
+  }
+  .regdiv input[type="submit"]{
+    height: 30px;
+    color:  rgb(255, 255, 255);
+    font-size: 15px;
+    background: rgb(57, 89, 90);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 10%;
+  }
+  .firstdiv{
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 400px;
+   height: 400px;
+   padding: 80px 40px;
+   box-sizing: border-box;
+   background: transparent;
+  }
+  .firstdiv input
+  {  color:  rgb(255, 255, 255);
+  
+    cursor: pointer;
+  
+      width: 100%;
+      margin-bottom: 20px;
+      height: 40px;
+  background-color:  rgb(57, 89, 90);
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-top: 10%;
+  
+  
+  }
+  

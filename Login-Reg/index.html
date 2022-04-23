@@ -1,0 +1,32 @@
+  <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="design.css">
+
+  </head>
+  <body background="images/wallpaper3.png">
+    <div class="firstdiv">
+
+
+    <form  action="index1.php" method="post">
+      <input id="loginbutton" type="button" name="login" value="Login">
+      <script type="text/javascript">
+
+        document.getElementById("loginbutton").onclick = function () {
+         location.href = "login.php";
+      };
+      </script>
+      <input id="regbutton" type="button" name="Registration" value="Registration">
+
+      <script type="text/javascript">
+    document.getElementById("regbutton").onclick = function () {
+      location.href = "register.php";
+    };
+</script>
+    </form>
+    </div>
+
+  </body>
+</html>
